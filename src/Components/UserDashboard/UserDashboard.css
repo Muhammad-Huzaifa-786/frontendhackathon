@@ -1,0 +1,40 @@
+.history-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.history-card {
+    text-align: left !important;
+    border-radius: 5px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.history-card h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+#userdashnavid{
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between !important; 
+    padding:0 10px 0 10px;
+    align-items: center;
+}
+.history-card p {
+    margin: 5px 0;
+    text-align: start;
+}
+#backuserdashid{
+    width: 100px !important;
+    height: 35px;
+}

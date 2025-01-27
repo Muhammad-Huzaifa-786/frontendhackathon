@@ -1,0 +1,188 @@
+/* Admin.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.admin-container {
+    padding: -20px;
+
+}
+#adminbtndash{
+    width: 100px !important;
+}
+.navbar {
+    background: #282c34;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+#navbaradmincode{
+    display: flex;
+    justify-content: space-between !important;
+}
+.navbar h1 {
+    color: rgb(0, 0, 0);
+}
+
+.table-container {
+    margin-top: 20px;
+    overflow-x: auto; /* Allow horizontal scrolling on small screens */
+    border: 1px solid #ccc; /* Optional: Add a border for better separation */
+    border-radius: 4px; /* Rounded corners for aesthetic */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+    white-space: nowrap;
+    word-wrap: break-word; /* Break long words */
+    overflow-wrap: break-word; 
+     /* Prevent wrapping in table cells */
+}
+
+th {
+    background: #f4f4f4;
+    font-weight: bold; /* Make header text bold */
+}
+
+tbody tr:hover {
+    background-color: #f9f9f9; /* Highlight on hover */
+}
+
+.guarantor-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.guarantor-list li {
+    padding: 5px 0;
+}
+
+button {
+    margin: 0 5px;
+    padding: 6px 12px;
+    width: 70px !important;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.view {
+    background-color: #ff274b; /* Red for view */
+    width: 80px !important;
+    margin-right: 10px;
+}
+
+.already {
+        width: 80px !important;
+    background-color: green; /* Green for already accepted */
+}
+
+.accept {
+    width: 80px !important;
+    color: black;
+    background-color: yellow; /* Yellow for accept */
+}
+
+.accept:hover {
+    background-color: #ffd700; /* Darker yellow on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    th, td {
+        padding: 8px; /* Smaller padding on smaller screens */
+        font-size: 14px; /* Reduce font size */
+    }
+
+    button {
+        padding: 4px 8px; /* Smaller button padding */
+        font-size: 12px; /* Smaller button font */
+    }
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px; /* Adjust width as needed */
+}
+
+.modal h2 {
+    margin-top: 0;
+}
+
+/* Additional modal styling */
+.modal p {
+    margin: 8px 0; /* Margin for paragraph spacing */
+}
+.modal-item {
+    display: flex;
+    justify-content: space-between; /* Creates space between label and value */
+    margin-bottom: 10px; /* Space between each item */
+}
+.filter-container div{
+    background-color: #dfdfdf;
+    padding: 14px;
+    margin: 10px 0 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+#restebtnAdmin{
+background-color: #868686;
+width: 100px !important;
+height: 35px;
+padding-bottom: 15px;
+}
+.filter-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    flex-wrap: wrap; /* Space between elements */
+}
+.filter-container label {
+    font-weight: bold;
+    font-size: 15px; /* Make labels bold */
+}
+.filter-container select {
+    width: 200px; /* Set width for the dropdowns */
+    padding: 5px; /* Add some padding for better appearance */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 16px; /* Adjust font size */
+}#emailFilter,#loanAmountLessThan,#loanAmountGreaterThan{
+    width: 180px;
+    height: 12px;
+    border-radius: 7px;
+}
+.datePickerAdmin label{
+    margin-top: -17px;
+    /* height: 152px; */
+    /* margin-top: 10px; */
+    /* border: 10px solid red !important; */
+    /* padding: 10px; */
+}

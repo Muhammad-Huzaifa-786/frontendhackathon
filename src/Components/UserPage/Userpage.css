@@ -1,0 +1,98 @@
+.userpage-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+    margin-bottom: 20px;
+}
+
+.form-container input {
+    width: 90%;
+    margin: auto !important;
+}
+.form-container button {
+    width: 200px !important;
+    margin: auto !important;
+}
+
+
+h1,
+h2 {
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group button {
+    width: 10px !important;
+}
+
+.form-group input {
+    margin-right: 80px !important;
+}
+
+.btneye {
+    margin-left: -80px;
+    background-color: transparent;
+    color: rgb(0, 0, 0) !important;
+}
+
+.btneye:hover {
+   background-color: transparent;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px !important;
+    margin: auto;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    width: 200px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.guarantor-form {
+    border: 1px dashed #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.add-button {
+    background-color: #007bff;
+}
+
+.add-button:hover {
+    background-color: #0069d9;
+}

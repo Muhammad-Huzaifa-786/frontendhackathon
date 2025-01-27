@@ -1,0 +1,77 @@
+/* Footer Styles */
+.footer {
+    background-color: #ffffff; /* White background */
+    color: #000000 !important; /* Black text */
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-section {
+    text-align: center;
+}
+
+.footer-heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000000; /* Black color for headings */
+}
+
+.footer-text {
+    font-size: 14px;
+    color: #4a4a4a; /* Dark gray text for less prominent text */
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-link {
+    display: block;
+    font-size: 16px;
+    color: #000000; /* Black color for links */
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.footer-link:hover {
+    color: #4a4a4a; /* Dark gray color on hover */
+}
+
+.footer-social {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer-icon {
+    font-size: 24px;
+    color: #000000; /* Black color for icons */
+    text-decoration: none;
+}
+
+.footer-icon:hover {
+    color: #4a4a4a; /* Dark gray color on hover */
+}
+
+.footer-divider {
+    border-top: 1px solid #dcdcdc; /* Light gray divider */
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.footer-copyright {
+    font-size: 14px;
+    color: #4a4a4a; /* Dark gray text for copyright */
+}
