@@ -35,14 +35,11 @@ h2 {
     width: 10px !important;
 }
 
-.form-group input {
-    margin-right: 80px !important;
-}
-
 .btneye {
     margin-left: -80px;
     background-color: transparent;
     color: rgb(0, 0, 0) !important;
+    width: 10px !important;
 }
 
 .btneye:hover {

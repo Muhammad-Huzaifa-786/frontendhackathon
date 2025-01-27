@@ -64,7 +64,7 @@ function Welcome() {
   const submitDetail = async (e) => {
     e.preventDefault(); // Prevent the default form submission
 
-    const { name, email, cnic, gender, loanAmount, returnTime ,city} = formData; // Destructure form data
+    const { name, email, cnic, gender, loanAmount, returnTime, city } = formData; // Destructure form data
     if (!name || !email || !cnic || !gender || !loanAmount || !returnTime || !city) {
       MySwal.fire({
         icon: 'error',
@@ -108,7 +108,7 @@ function Welcome() {
       });
     } catch (error) {
       console.error('Failed to add user:', error.response ? error.response.data : error.message); // Log the error response for debugging
-        MySwal.fire('Oop!', 'Failed to add user', 'error');   
+      MySwal.fire('Oop!', 'Failed to add user', 'error');
       // alert('Failed to add user'); // Notify the user of failure
 
       return
@@ -169,6 +169,7 @@ function Welcome() {
 
       {modalSlip && (
         <div id='Modalofslip'>
+          <h1>12</h1>
           <h3>Your User ID QR Code:</h3>
           {qrCodeUrl && <img src={qrCodeUrl} alt="Generated QR Code" />}
           <p>{qr}</p> {/* Show the URL */}

@@ -43,9 +43,10 @@ const UserDashboard = () => {
                 {userHistory.map((user, index) => (
                     <div className="history-card" key={index}>
                         <h2>{user.name}</h2>
+                        <p>Sno.{index}</p>
                         <p>Email: {user.email}</p>
                         <p>Loan Amount: {user.loanAmount}</p>
-                        <p>Loan Type: {user.loanType}</p>
+                        <p>Loan Type: {user.loanType || "No type"}</p>
                         <p>Return Time: {user.returnTime} months</p>
                         <p>AdminAccept: {user.AdminAccept ? "Yes" : "No"}</p>
                     </div>

@@ -16,6 +16,7 @@
     "@mui/x-date-pickers": "^7.24.1",
     "axios": "^1.7.9",
     "dayjs": "^1.11.13",
+    "http-proxy-middleware": "^3.0.3",
     "qrcode": "^1.5.4",
     "qrcode.react": "^4.2.0",
     "react": "^18.3.1",
